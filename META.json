@@ -1,0 +1,46 @@
+{
+	"name": "myext",
+	"abstract": "gsdfgfd",
+	"description": "",
+	"version": "0.1.0",
+	"maintainer": [
+		"Florents Tselai <florents@tselai.com>"
+	],
+	"license": {
+		"PostgreSQL": "http://www.postgresql.org/about/licence"
+	},
+	"prereqs": {
+		"runtime": {
+			"requires": {
+				"PostgreSQL": "15.0.0"
+			}
+		}
+	},
+	"provides": {
+		"vector": {
+			"file": "sql/myext--0.1.0.sql",
+			"docfile": "README.md",
+			"version": "0.1.0",
+			"abstract": "gsdfgfd"
+		}
+	},
+	"resources": {
+		"homepage": "https://github.com/Florents-Tselai/myext",
+		"bugtracker": {
+			"web": "https://github.com/Florents-Tselai/myext/issues"
+		},
+		"repository": {
+			"url":  "https://github.com/Florents-Tselai/myext.git",
+			"web":  "https://github.com/Florents-Tselai/myext",
+			"type": "git"
+		}
+	},
+	"generated_by": "Florents Tselai",
+	"meta-spec": {
+		"version": "1.0.0",
+		"url": "http://pgxn.org/meta/spec.txt"
+	},
+	"tags": [
+		
+	]
+}
